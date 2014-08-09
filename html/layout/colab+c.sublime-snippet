@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<div class="col-a">$1</div>
+<div class="col-b">$2</div>
+<div class="col-c">$3</div>
+]]></content>  // 缩写展开后的代码
+    <tabTrigger>layout:cola-b-c</tabTrigger>  // 快捷输入的缩写
+    <description>三列:左中右</description>  // 片段的描述
+    <scope>text.html</scope>  // 仅对 html 文件有效
+</snippet>

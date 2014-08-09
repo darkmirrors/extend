@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+<style type="text/css">
+/**
+ * pics(pics.css)
+ * 图片列表
+ */
+.pics:after{content:"\20";clear:both;height:0;display:block;overflow:hidden;}
+.pics {zoom:1;}
+.pics li{margin-right:10px; float:left; display:inline; text-align:center; zoom:1;}
+.pics li img {vertical-align:top;}
+.pics li .title {height:25px; line-height:25px; display:block; background:#f0f0f0; cursor:pointer; overflow:hidden; text-align:center;}
+.pics li .noBg {background:none;}
+</style>
+<ul class="pics">
+	li*${1:5}>a[target=_blank]>img[width=${2:135} height=${3:100} src="http://dummyimage.com/${2:135}x${3:100}/f1f1f1/999"]+span.title>{标题\$}
+</ul>
+]]></content>  // 缩写展开后的代码
+    <tabTrigger>module:pics</tabTrigger>  // 快捷输入的缩写
+    <description>图片列表</description>  // 片段的描述
+    <scope>text.html</scope>  // 仅对 html 文件有效
+</snippet>

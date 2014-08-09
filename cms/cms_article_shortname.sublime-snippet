@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<cms:article  property="_shortname">栏目缩写名</cms:article>
+]]></content>
+	<tabTrigger>cms:art-shortname</tabTrigger>
+	<description>article:栏目缩写名</description>
+	<scope>text.html</scope>
+</snippet>

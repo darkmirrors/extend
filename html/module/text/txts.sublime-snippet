@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<style type="text/css">
+/**
+ * txts(txts.css)
+ * 文字列表
+ */
+.txts:after{content:"\20";clear:both;height:0;display:block;overflow:hidden;} .txts {zoom:1;}
+.txts li {height:24px; line-height:24px; overflow:hidden; vertical-align:middle;}
+.txts .sub {color:#aaa;}
+.txts .sub a {color:#777;} .txts .sub a:hover {color:#f60;}
+</style>
+<ul class="txts">
+	li*${1:2}>{&middot;}+a[target=_blank]>{标题\$}
+</ul>
+]]></content>  // 缩写展开后的代码
+    <tabTrigger>module:txts</tabTrigger>  // 快捷输入的缩写
+    <description>文字列表</description>  // 片段的描述
+    <scope>text.html</scope>  // 仅对 html 文件有效
+</snippet>

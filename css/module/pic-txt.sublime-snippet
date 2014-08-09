@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * pic-txt(pic-txt.css)
+ * 图文混合结构
+ */
+.pic-txt:after{content:"\20"; clear:both; height:0; display:block; overflow:hidden;} .pic-txt {zoom:1;}
+.pic-txt .img-area {float:left; margin-right:15px; _margin-right:12px;}
+]]></content>  // 缩写展开后的代码
+    <tabTrigger>module:pic-txt</tabTrigger>  // 快捷输入的缩写
+    <description>图文混合结构</description>  // 片段的描述
+    <scope>source.css</scope>  // 仅对 html 文件有效
+</snippet>

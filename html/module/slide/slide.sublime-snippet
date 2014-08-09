@@ -1,0 +1,61 @@
+<snippet>
+    <content><![CDATA[
+<style type="text/css">
+/**
+ * pics(pics.css)
+ * 图片列表
+ */
+.pics:after{content:"\20";clear:both;height:0;display:block;overflow:hidden;}
+.pics {zoom:1;}
+.pics li{float:left; display:inline; text-align:center; zoom:1;}
+.pics li img {vertical-align:top;}
+.pics li .title {height:25px; line-height:25px; display:block; background:#f0f0f0; cursor:pointer; overflow:hidden; text-align:center;}
+.pics li .noBg {background:none;}
+
+/**
+ * slide-pic(slide-pic.css)
+ * 图片滚动
+ */
+.slide-pic .prev,.slide-pic .next{background-image:url('http://www1.pconline.com.cn/bjzz/images/slide_bg.png'); background-repeat:no-repeat;}
+
+.slide-pic {width:1000px; padding:15px 0;position:relative; zoom:1;}
+.slide-pic .pics {width:99999px;}
+.slide-pic .slide-wrap {padding:0 57px; position:relative; zoom:1;}
+.slide-pic .slide-inner {height:125px; overflow:hidden; position:relative;}
+.slide-pic .slide-inner li {width:135px; float:left; margin-right:15px;}
+.slide-pic .slide-inner li img {vertical-align:top;}
+.slide-pic .prev,.slide-pic .next {width:29px; height:44px; margin-top:-22px; position:absolute; top:50%; z-index:2;}
+
+.slide-pic .prev {background-position:0 0;left:10px;}
+.slide-pic .next {background-position:-30px 0;right:10px;}
+.slide-pic .prev:hover {background-position:0px -45px;}
+.slide-pic .next:hover {background-position:-30px -45px;}
+</style>
+
+<div class="slide-pic" id="slide-pic">
+    <div class="slide-wrap">
+        <a href="javascript:" class="prev"></a>
+        <a href="javascript:" class="next"></a>
+        <div class="slide-inner">
+            <ul class="pics">
+                li*${1:10}>a[target=_blank]>img[width=${2:135} height=${3:100} src="http://dummyimage.com/${2:135}x${3:100}/f1f1f1/999"]+span.title>{标题\$}
+            </ul>
+        </div>        
+    </div>
+</div>
+<script src="http://js.3conline.com/min/temp/v2/core-pc_v1,dpl-tab_v2.js"></script>
+<script type="text/javascript">
+window.slidePic = new pc.tab.scroll({
+    target: pc.getElems('#slide-pic .slide-inner li'),
+    prevBtn: pc.getElems('#slide-pic .prev')[0],
+    nextBtn: pc.getElems('#slide-pic .next')[0],
+    control: false,
+    autoPlay: true,
+    stay: 3500
+});
+</script>
+	]]></content>  // 缩写展开后的代码
+    <tabTrigger>module:slide-pic</tabTrigger>  // 快捷输入的缩写
+    <description>图文滚动</description>  // 片段的描述
+    <scope>text.html</scope>  // 仅对 html 文件有效
+</snippet>

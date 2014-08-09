@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+*html{_background-image:url(about:blank);_background-attachment:fixed}
+]]></content>
+	<tabTrigger>ie6-fixed</tabTrigger>
+	<description>防止抖动</description>
+	<scope>source.css</scope>
+</snippet>

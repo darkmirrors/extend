@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+/* reset */
+
+
+/* layout */
+
+
+/* module */
+
+
+/* unit */
+
+
+/* function */
+
+
+/* skin */
+
+
+/* other */
+
+
+/* content */
+
+
+]]></content>
+	<tabTrigger>node</tabTrigger>
+	<description>新规范-注释</description>
+	<scope>source.css</scope>
+</snippet>

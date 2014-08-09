@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<cms:toJS>
+
+</cms:toJS>
+]]></content>
+	<tabTrigger>cms:toJS</tabTrigger>
+	<description>cms:toJS</description>
+	<scope>text.html</scope>
+</snippet>

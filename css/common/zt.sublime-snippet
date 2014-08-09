@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+/* reset */
+dl,dt,dd {margin:0; padding:0}
+img {vertical-align:top;}
+em {font-style:normal;}
+a {color:#333;} a:hover {color:#f60;}
+
+/* layout */
+.col-a, .col-b, .col-ab {float:left;} .col-C {float:right;}
+.col-a {width:350px; margin-right:10px}.col-b {width:390px;}.col-C {width:230px;}
+.col-ab {width:750px;}
+
+.doc,.header {background:url('images/banner.jpg') center 0 no-repeat;}
+.wraper {width:1000px; margin:0 auto;}
+
+/* module */
+
+
+/* unit */
+
+
+/* function */
+.mark,.fl {float:left} .mark-sub,.fr {float:right}
+.description {text-indent:24px;}
+
+.f14 {font-size:14px;}
+
+/* skin */
+.more {color:#c00} .more:hover {color:#c00}
+
+/* other */
+
+
+/* content */
+/* 统一处理背景 */
+{background:url('images/bg.png') 0 0 no-repeat;}
+
+.wraper {text-align:left; position:relative; *left:1px; color:#333;}
+
+]]></content>
+	<tabTrigger>zt</tabTrigger>
+	<description>新规范-专题公用样式</description>
+	<scope>source.css</scope>
+</snippet>

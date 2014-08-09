@@ -1,0 +1,58 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" />
+<title>测试</title>
+<meta name="keywords" content="关键字,关键字,关键字" />
+<meta name="description" content="描述。……" />
+<meta name="Author" content="${1:author}_gz ${2:designer}_gz" />
+<link href="http://js.3conline.com/pconline/zt_base2013.css" rel="stylesheet" type="text/css" />
+<link href="index.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]><script>document.execCommand("BackgroundImageCache", false, true)</script><![endif]-->
+</head>
+<body>
+<script>if(!window._addIvyID) document.write("<scr"+"ipt src='http://www.pconline.com.cn/_hux_/online/default/index.js'><\/scr"+"ipt>");</script>
+
+<!--栏目计数器/文章计数器-->
+<span class="spanclass">
+<script>
+document.write("<img style=display:none src=http://count5.pconline.com.cn/newcount/count.php?channel=${3:3936}&screen="+screen.width+"*"+screen.height+"&refer="+encodeURIComponent(document.referrer)+"&anticache="+new Date().getTime()+"&url="+encodeURIComponent(location.href)+"&from=cms >");
+document.write('<img src="http://acount.pconline.com.cn/wzcount/artbrowse.php?groupname=电脑网&subgroupname=&id=${4}&title=&response=1" border="0" width="0" height="0" />');
+</script>
+</span>
+
+<script src="http://www.pconline.com.cn/global/zt_header/index.html"></script>
+
+<div class="doc">
+	<!-- header -->
+	<div class="header">
+		${5}
+	</div>
+	<!-- /header -->
+
+	<!-- wraper -->
+	<div class="wraper">
+		${0}
+	</div>
+	<!-- /wraper -->
+</div>
+
+
+<!--页面脚本区S-->
+<!--所有页面用到的js脚本都必须放到此位置，包括外链js和内嵌js-->
+<script src="xxxx.js"></script>
+<script>
+
+</script>
+<!--页面脚本区E-->
+
+<script src="http://www.pconline.com.cn/global/footer/index.html"></script>
+<script>_submitIvyID();</script>
+</body>
+</html>
+]]></content>
+	<tabTrigger>zt</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

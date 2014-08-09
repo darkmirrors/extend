@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<cms:article property="_ivy_pvcode" />
+]]></content>
+	<tabTrigger>cms:pvcode</tabTrigger>
+	<description>_ivy_pvcode:统计代码</description>
+	<scope>text.html</scope>
+</snippet>

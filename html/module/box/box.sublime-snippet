@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<div class="box">
+	<div class="box-hd">
+		<span class="mark">$1</span>
+		<span class="mark-sub">$2</span>
+	</div>
+	<div class="box-bd">
+		$0
+	</div>
+</div>
+]]></content>  // 缩写展开后的代码
+    <tabTrigger>module:box</tabTrigger>  // 快捷输入的缩写
+    <description>盒子模型</description>  // 片段的描述
+    <scope>text.html</scope>  // 仅对 html 文件有效
+</snippet>

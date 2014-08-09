@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000); background:rgba(0,0,0,0.7);
+]]></content>
+	<tabTrigger>opacity-gradient</tabTrigger>
+	<description>IE背景色透明滤镜</description>
+	<scope>source.css</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<div class="col-ab">$1</div>
+<div class="col-c">$2</div>
+]]></content>  // 缩写展开后的代码
+    <tabTrigger>layout:colab-c</tabTrigger>  // 快捷输入的缩写
+    <description>两列:左(宽)右</description>  // 片段的描述
+    <scope>text.html</scope>  // 仅对 html 文件有效
+</snippet>

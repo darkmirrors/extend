@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" />
+<title>测试</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="darkmirrors_gz $1_gz" />
+<link href="http://js.3conline.com/pconline/zt_base2013.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	.wraper { text-align: left;}
+</style>
+<!--[if IE 6]><script>document.execCommand("BackgroundImageCache", false, true)</script><![endif]-->
+</head>
+
+<body>
+<div class="doc">
+	<div class="header">
+		
+	</div>
+	<div class="wraper">
+    	$0
+    </div>
+</div>
+</body>
+</html>
+	]]></content>
+	<tabTrigger>ht</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

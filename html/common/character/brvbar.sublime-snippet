@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[&brvbar;
+]]></content>
+    <tabTrigger>z:&brvbar;</tabTrigger>
+    <description>¦</description>
+    <scope>text.html</scope>
+</snippet>

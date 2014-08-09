@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<div class="tab">
+	<div class="tab-ctrl">
+		i.item*$1
+	</div>
+	<div class="tab-wrap">
+		.pannel*$2
+	</div>
+</div>
+]]></content>  // 缩写展开后的代码
+    <tabTrigger>module:tab</tabTrigger>  // 快捷输入的缩写
+    <description>标签/舌签切换</description>  // 片段的描述
+    <scope>text.html</scope>  // 仅对 html 文件有效
+</snippet>

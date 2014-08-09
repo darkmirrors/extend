@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cms:replace regex="<img([^>]*)src=([\"|'])(.*?)\2([^>]*)\/>" replacement="<img\$1src=\$2http://www1.pconline.com.cn/images/blank.gif\$2 src2=\"\$3\" \$4 /> ">
+</cms:replace>
+]]></content>
+	<tabTrigger>cms:replace</tabTrigger>
+	<description>replace:src2</description>
+	<scope>text.html</scope>
+</snippet>

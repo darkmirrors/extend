@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[&divide;]]></content>
+    <tabTrigger>z:&divide;</tabTrigger>
+    <description>÷</description>
+    <scope>text.html</scope>
+</snippet>

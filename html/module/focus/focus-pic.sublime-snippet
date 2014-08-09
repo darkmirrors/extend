@@ -1,0 +1,43 @@
+<snippet>
+    <content><![CDATA[
+<style type="text/css">
+/**
+ * focus-pic(focus-pic.css)
+ * 2013新版焦点图
+ */
+.focus-pic {width:350px;}
+.focus-pic .focus-wrap .pannel {height:200px; display:none;}
+.focus-pic .focus-ctrl,.focus-pic .focus-ctrl-wrap {overflow:hidden; zoom:1;}
+.focus-pic .focus-ctrl-wrap {margin-right:-5px;}
+.focus-pic .focus-ctrl {border-top:2px solid #f60;}
+.focus-pic .focus-ctrl .item {width:42px; height:18px; margin-right:2px; float:left; text-align:center; overflow:hidden;}
+.focus-pic .focus-ctrl .item a {height:18px; line-height:18px; display:block; background:#e8e8e8; font-family:Tahoma; color:#777;}
+.focus-pic .focus-ctrl .item a:hover, .focus-pic .focus-ctrl .current a {background:#f60; color:#fff; text-decoration:none;}
+</style>
+
+<div id="focus-pic" class="focus-pic">
+    <div class="focus-wrap">
+        .pannel*8>a[target=_blank]>img[width=${1:350} height=${2:200} src="http://dummyimage.com/${1:350}x${2:200}/f1f1f1/999"]
+    </div>
+    <div class="focus-ctrl">
+        <div class="focus-ctrl-wrap">
+            i.item*8>a[href=javascript:]>{\$}
+        </div>
+    </div>
+</div>
+<script src="http://js.3conline.com/min/temp/v2/core-pc_v1,dpl-tab_v2.js"></script>
+<script type="text/javascript">
+new pc.tab({
+    target: pc.getElems('#focus-pic .focus-wrap .pannel'),
+    control: pc.getElems('#focus-pic .focus-ctrl .item'),
+    effect: 'base',
+    autoPlay: true,
+    stay: 3500,
+    lazy: true
+});
+</script>
+]]></content>  // 缩写展开后的代码
+<tabTrigger>module:focus-pic</tabTrigger>  // 快捷输入的缩写
+<description>2013新版焦点图</description>  // 片段的描述
+<scope>text.html</scope>  // 仅对 html 文件有效
+</snippet>

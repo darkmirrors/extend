@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[&times;]]></content>
+    <tabTrigger>z:&times;</tabTrigger>
+    <description>×</description>
+    <scope>text.html</scope>
+</snippet>

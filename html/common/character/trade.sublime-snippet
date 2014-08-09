@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[&trade;]]></content>
+    <tabTrigger>z:&trade;</tabTrigger>
+    <description>™</description>
+    <scope>text.html</scope>
+</snippet>
